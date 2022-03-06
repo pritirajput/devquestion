@@ -24,3 +24,18 @@ var myFirstName = "Priti";
 var myLastName = "Rajput";
 console.log(myFirstName);
 console.log(myLastName);
+
+//Question 6 is Understanding Uninitialized Variables
+var a1;
+var b1;
+var c1;
+var d;
+a1 =5;
+b1=10;
+c1="I am a"
+
+
+a1 = a1 + 1;
+b1 = b1 + 5;
+c1 = c1 + " String!";
+console.log(a1,b1,c1,d);
