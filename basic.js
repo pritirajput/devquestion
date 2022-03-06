@@ -119,9 +119,38 @@ let num3 = 12;
 num1 +=12;
 num2 +=9;
 num3 += 7;
+console.log("Compound Assignment With Augmented Addition");
 console.log(num1,num2,num3);
 
+//question 21 is Compound Assignment With Augmented Subtraction
+let n1 = 11;
+let n2 = 9;
+let n3 = 3;
+n1 -= 6;
+n2 -= 15;
+n3 -= 1;
+console.log("Compound Assignment With Augmented Subtraction");
+console.log(n1,n2,n3);
 
+//question 22 is Compound Assignment With Augmented Multiplication
+let x = 5;
+let y = 12;
+let z = 4.6;
+x *= 5;
+y *= 3 ;
+z *= 10;
+console.log("Compound Assignment With Augmented Multiplication");
+console.log(x,y,z);
+
+//question 23 is Compound Assignment With Augmented Division
+let x1 = 48;
+let x2= 108;
+let x3= 33;
+x1 /= 12;
+x2 /= 4;
+x3 /= 11;
+console.log("Compound Assignment With Augmented Division");
+console.log(x1,x2,x3);
 
 
 
