@@ -4,7 +4,8 @@ console .log(a);*/
 console.log("single line and multi line comment is done");
  
 //question 2 is Declare JavaScript Variables
-var num = 5;
+var num ;
+num = 5
 console.log(num);
 
 //question 3 is Assigning the Value of One Variable to Another
@@ -13,3 +14,7 @@ a = 7;
 var b;
 b = a;
 console.log(b);
+
+//question 3 is Initializing Variables with the Assignment Operator
+var a = 7;
+comsole.log(a);
