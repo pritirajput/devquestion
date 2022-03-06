@@ -58,3 +58,8 @@ studlyCapVar = 10;
 properCamelCase = "A String";
 titleCaseOver = 9000;
 
+//question 8 is Explore Differences Between the var and let Keywords
+var catName = "Oliver";
+let catSound = "Meow!";
+console.log(catName,catSound);
+
