@@ -4,5 +4,12 @@ console .log(a);*/
 console.log("single line and multi line comment is done");
  
 //question 2 is Declare JavaScript Variables
-let num = 5;
+var num = 5;
 console.log(num);
+
+//question 3 is Assigning the Value of One Variable to Another
+var a;
+a = 7;
+var b;
+b = a;
+console.log(b);
