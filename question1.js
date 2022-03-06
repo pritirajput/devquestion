@@ -39,3 +39,22 @@ a1 = a1 + 1;
 b1 = b1 + 5;
 c1 = c1 + " String!";
 console.log(a1,b1,c1,d);
+
+//question 7 is Understanding Case Sensitivity in Variables
+/*// Variable declarations
+var StUdLyCapVaR;
+var properCamelCase;
+var TitleCaseOver;
+
+// Variable assignments
+STUDLYCAPVAR = 10;
+PRoperCAmelCAse = "A String";
+tITLEcASEoVER = 9000;*/
+
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;
+
