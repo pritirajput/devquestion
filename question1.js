@@ -15,6 +15,12 @@ var b;
 b = a;
 console.log(b);
 
-//question 3 is Initializing Variables with the Assignment Operator
-var a = 7;
-comsole.log(a);
+//question 4 is Initializing Variables with the Assignment Operator
+var c = 7;
+console.log(c);
+
+//question 5 is Declare String Variables
+var myFirstName = "Priti";
+var myLastName = "Rajput";
+console.log(myFirstName);
+console.log(myLastName);
