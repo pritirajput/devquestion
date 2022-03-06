@@ -63,3 +63,8 @@ var catName = "Oliver";
 let catSound = "Meow!";
 console.log(catName,catSound);
 
+//question 9 is Declare a Read-Only Variable with the const Keyword
+const FCC = "freeCodeCamp"; 
+let fact = "is cool!";
+fact = "is awesome!";
+console.log(FCC, fact); 
