@@ -48,4 +48,8 @@ myArray9.shift();
 myArray9.unshift(["Paul",35]);
 console.log("Array with unshift : "+myArray9);
  
+//question 47 is Shopping List
+const myList = [["first",1],["second",2],["third",3],["forth",4],["fivth",5]];
+console.log("array list : ",myList);
+
 
