@@ -167,3 +167,86 @@ switch(val){
 
 let multicaseswitch = sequentialSizes(1);
 console.log(multicaseswitch);
+
+//question 78 is Replacing If Else Chains with Switch
+function chainToSwitch(val) {
+  let answer = "";
+  
+  /*if (val === "bob") {
+    answer = "Marley";
+  } else if (val === 42) {
+    answer = "The Answer";
+  } else if (val === 1) {
+    answer = "There is no #1";
+  } else if (val === 99) {
+    answer = "Missed me by this much!";
+  } else if (val === 7) {
+    answer = "Ate Nine";
+  }*/
+  switch(val){
+    case "bob":
+    answer = "Marley";
+    break;
+    case 42:
+    answer = "The Answer";
+    break;
+    case 1:
+    answer = "There is no #1";
+    break;
+    case 99:
+    answer = "Missed me by this much!";
+    break;
+    case 7:
+    answer = "Ate Nine";
+  }
+
+  return answer;
+}
+let replaceswitch = chainToSwitch(7);
+console.log(replaceswitch);
+
+//question 79 is Returning Boolean Values from Functions
+function isLess(a, b) {
+    return (a < b);
+}
+
+console.log(isLess(10, 15));
+
+//question 80is Return Early Pattern for Functions
+function abTest(a, b) {
+  if(a<0) return undefined;
+  else if (b<0) return undefined;
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+
+console.log(abTest(2,2));
+
+//question 81 is Counting Cards
+let count = 0;
+function cc(card) {
+switch (card){
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+    count ++;
+    break;
+    case 10:
+    case "J":
+    case "Q":
+    case "K":
+    case "A":
+    count--;
+    break;
+  }
+  if (count > 0) {
+    return count + " Bet";
+  } else {
+    return count + " Hold";
+  }
+  
+}
+
+cc(2); cc(3); cc(7); cc('K'); cc('A');
+console.log(cc(5));
